@@ -1,0 +1,18 @@
+{
+  "slug": "#string",
+  "title": "#string",
+  "description": "#string",
+  "body": "#string",
+  "createdAt": "#string",
+  "updatedAt": "#string",
+  "tagList": "#array",
+  "author": {
+    "username": "#string",
+    "bio": "##string",
+    "image": "##string",
+    "following": "#boolean",
+    "followersCount": "#number"
+  },
+  "favorited": "#boolean",
+  "favoritesCount": "#number"
+}

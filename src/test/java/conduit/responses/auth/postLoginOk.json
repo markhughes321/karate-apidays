@@ -1,0 +1,9 @@
+{
+  "user": {
+    "email": "#regex [a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}",
+    "username": "#regex .+",
+    "bio": "##string",
+    "image": "##null",
+    "token": "#regex ^[A-Za-z0-9-_]+\\.[A-Za-z0-9-_]+\\.[A-Za-z0-9-_]+$"
+  }
+}
