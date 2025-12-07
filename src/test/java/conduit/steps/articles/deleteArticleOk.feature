@@ -1,4 +1,4 @@
-@articles @deleteArticleOk
+@articles @deleteArticleOk @contract @ignore
 Feature: Delete Article - Valid Request
 
   Background:

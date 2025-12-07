@@ -1,4 +1,4 @@
-@login @postLoginOk 
+@login @postLoginOk @contract @ignore
 Feature: User Login - Valid Credentials
 
   Background:

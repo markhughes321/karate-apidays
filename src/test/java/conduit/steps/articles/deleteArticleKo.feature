@@ -1,4 +1,4 @@
-@articles @deleteArticleKo
+@articles @deleteArticleKo @contract
 Feature: Delete Article - Invalid Request
 
   Background:

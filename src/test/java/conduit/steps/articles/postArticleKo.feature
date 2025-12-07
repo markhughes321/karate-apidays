@@ -1,4 +1,4 @@
-@articles @postArticleKo
+@articles @postArticleKo @contract
 Feature: Create Article - Invalid Request
 
   Background:
@@ -23,6 +23,6 @@ Feature: Create Article - Invalid Request
     And match response.errors.body[0] == '<errorMessage>'
 
     Examples:
-      | title         | description         | body                 | tagList  | errorMessage        |
-      | null          | 'Valid description' | 'Valid body content' | ['tag1'] | Missing title       |
-      | 'Valid Title' | null                | 'Valid body content' | ['tag1'] | Missing description |
+      | title         | description         | body                 | tagList  | errorMessage             |
+      | null          | 'Valid description' | 'Valid body content' | ['tag1'] | A title is required      |
+      | 'Valid Title' | null                | 'Valid body content' | ['tag1'] | A description is required |

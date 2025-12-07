@@ -1,4 +1,4 @@
-@login @postLoginKo 
+@login @postLoginKo @contract
 Feature: User Login - Invalid Credentials
 
   Background:

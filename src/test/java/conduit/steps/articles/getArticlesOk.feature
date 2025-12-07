@@ -1,4 +1,4 @@
-@articles @getArticlesOk
+@articles @getArticlesOk @contract @ignore
 Feature: Get Articles - Valid Request
 
   Background:

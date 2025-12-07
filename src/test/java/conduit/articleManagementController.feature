@@ -1,4 +1,4 @@
-@articles
+@articles @systemIntegration
 Feature: Article Management Controller
 
   Scenario: Create, Get, and Delete Article Flow

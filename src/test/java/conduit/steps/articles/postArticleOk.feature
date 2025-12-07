@@ -1,4 +1,4 @@
-@articles @postArticleOk
+@articles @postArticleOk @contract @ignore
 Feature: Create Article - Valid Request
 
   Background:

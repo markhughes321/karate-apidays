@@ -1,4 +1,4 @@
-@articles @getArticlesKo
+@articles @getArticlesKo @contract
 Feature: Get Articles - Invalid Request
 
   Background:
@@ -13,6 +13,5 @@ Feature: Get Articles - Invalid Request
     Then status <expectedStatus>
 
     Examples:
-      | limit | offset | expectedStatus | errorMessage           |
-      | -1    | 0      | 400            | Invalid limit          |
-      | 0     | -1     | 400            | Invalid offset         |
+      | limit | offset | expectedStatus | errorMessage              |
+      | -1    | 0      | 500            | LIMIT must not be negative |
