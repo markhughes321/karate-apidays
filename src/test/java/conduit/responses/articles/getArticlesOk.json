@@ -1,10 +1,10 @@
 {
-  "slug": "#string",
-  "title": "#string",
+  "slug": "#regex [a-zA-Z0-9-]+",
+  "title": "#regex .+",
   "description": "#string",
   "body": "#string",
-  "createdAt": "#string",
-  "updatedAt": "#string",
+  "createdAt": "#regex \\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z",
+  "updatedAt": "#regex \\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z",
   "tagList": "#array",
   "author": {
     "username": "#string",

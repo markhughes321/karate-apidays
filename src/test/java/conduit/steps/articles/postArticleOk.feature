@@ -1,5 +1,5 @@
 @articles @postArticleOk @contract @ignore
-Feature: Create Article - Valid Request
+Feature: Create Article
 
   Background:
     * url baseUrl
